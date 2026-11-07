@@ -16,6 +16,7 @@ local indent = {
   cpp = { 4, true },
   python = { 4, true },
   rust = { 4, true },
+  go = { 4, false },
 }
 
 vim.api.nvim_create_autocmd("FileType", {

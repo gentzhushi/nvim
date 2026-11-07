@@ -3,3 +3,11 @@
 -- Add any additional options here
 
 vim.opt.mouse = ""
+
+-- Treat .h headers as C and .hpp headers as C++
+vim.filetype.add({
+  extension = {
+    h = "c",
+    hpp = "cpp",
+  },
+})
